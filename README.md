@@ -44,6 +44,13 @@ ToDoListDjango is based on Django and it allow users easily create their own to-
 | /api/v1/items/:id | PUT | Edit an existing item |
 | /api/v1/items/:id | DELETE | Delete an item |
 
+# Test
+Unfortunately, I am new to Django so that I did not have enough time to learn how to write test cases although I understand 
+the importance of TDD. Of course I will add that later on once I have a moment.
+
+Alternatively, you can test APIs through [Postman](https://www.getpostman.com/), the whole application can be tested by opening up 
+your browser and just try it out!
+
 # Tips
   - Title length should be 1-50 characters
   - Description length should be 1-500 characters
