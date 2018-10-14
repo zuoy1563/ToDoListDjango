@@ -21,7 +21,11 @@ ToDoListDjango is based on Django and it allow users easily create their own to-
   - Install Python 3.6
   - Install Django with command: `pip3 install Django`
   - Open the project in an IDE (PyCharm recommended here)
+  - There should be some data available in the database since I have uploaded my DB. If you would like to use your own data,
+    please read the next step
   - Set up database:
+       - Delete /ToDoListApp/migrations folder entirely
+       - Delete db.sqlite3
        - Run command: `python3 manage.py makemigrations`
        - Run command: `python3 manage.py migrate`
   - Select the name of this Django project in the dropdown list on the top-right of PyCharm window
